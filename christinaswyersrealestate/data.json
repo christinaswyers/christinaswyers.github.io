@@ -1,0 +1,13 @@
+{
+  "creativeautomaton": {
+      "users": {
+          "zach": {
+              "name": "Zachary",
+              "about": "This is zach's little bio."
+          }
+      },
+      "images": {
+
+       }
+   }
+}

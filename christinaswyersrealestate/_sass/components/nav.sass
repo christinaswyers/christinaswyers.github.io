@@ -1,0 +1,83 @@
+.nav,
+.nav-home
+    > .list
+        list-style: none
+        margin: 0
+        padding: 0 13px 0
+
+        > .item
+            display: inline-block
+            width: 100%
+
+        > .item > .link
+            display: inline-block
+            font-weight: 300
+            font-size: 1.4rem
+            padding: 20px 10px
+            text-decoration: none
+
+.nav, .nav-home
+    position: fixed
+    right: 0
+    top: 0
+    text-align: center
+    height: 100vh
+    width: 30%
+    max-width: 400px
+    top: 0
+    right: 0
+    z-index: 9
+    background: #de0707
+    border-left: 9px solid #830b0b
+    border-top: 3px solid #950707
+    color: #fff
+    padding: 7rem 1rem
+    .social-links
+        margin-top: 20px
+
+        > .link
+            margin: 0
+            text-decoration: none
+            position: relative
+            display: inline-block
+            height: 35px
+            width: 35px
+            > .icon
+                fill: $white
+                width: 26px
+                height: 26px
+
+            &:hover
+                > .icon
+                    fill: $black
+    > a
+    color: #fff
+    > .list
+        padding: 0 13px 0
+        display: flex
+        flex-wrap: wrap
+
+        > .item > .link
+            font-size: 1.4rem
+            padding: 20px 10px
+
+.nav-home
+    text-align: center
+
+    > .list
+        padding: 0
+        width: 100%
+
+        > .item > .link
+            font-size: 2rem
+            padding: 7px 15px
+            margin: 0
+            border-radius: 4%
+            transition: all .4s ease-in-out
+            min-width: 70px
+            max-width: 200px
+            width: 100%
+            color: #fff
+
+            &:hover
+                color: $alpha

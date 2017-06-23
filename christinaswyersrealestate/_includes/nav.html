@@ -1,0 +1,62 @@
+
+<div class="hamburger-container">
+    <button class="hamburger hamburger--collapse" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+</div>
+<nav class="{% if page.title == "Home" %}nav-home{% else %}nav-home{% endif %} animated hide">
+    <ul class="list">
+        {% if page.title != "Home" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/">Home</a>
+            </li>
+        {% endif %}
+
+
+        {% if site.projects == true %}
+            {% if page.title != "Projects" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/projects">Projects</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+        {% if site.blog == true %}
+            {% if page.title != "Blog" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+        {% if page.title != "Workers" %}
+            <li class="item">
+                <a class="link" href="{{ site.url }}/workers">Workers</a>
+            </li>
+        {% endif %}
+
+        {% if site.about == true %}
+            {% if page.title != "About" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/about">About</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+         {% if site.contact == true %}
+             {% if page.title != "Contact" %}
+                 <li class="item">
+                     <a class="link" href="{{ site.url }}/contact">Contact</a>
+                 </li>
+             {% endif %}
+         {% endif %}
+    </ul>
+
+    {% include social-links.html %}
+
+    {% include form-subscribe.html %}
+
+<button class="test-data"> test </button>
+</nav>
