@@ -6,7 +6,7 @@ picture: assets/images/profile.jpg
 resume: true
 resume-external: true
 resume-url: 'https://google.com/?q=my+resume'
-url: https://creativeautomaton.github.io
+url: https://christinaswyers.github.io
 permalink: '/:title/'
 disqus:
   shortname: mydisqus
