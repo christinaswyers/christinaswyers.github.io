@@ -1,0 +1,52 @@
+name: Creative Automaton
+bio: Creative Web Automation Services
+description: Creative Automation built to share the profits with automations builders.
+external-image: false
+picture: assets/images/profile.jpg
+resume: true
+resume-external: true
+resume-url: 'https://google.com/?q=my+resume'
+url: https://creativeautomaton.github.io
+permalink: '/:title/'
+disqus:
+  shortname: mydisqus
+  categories:
+    - blog
+    - project
+facebook: myfacebook
+twitter: mytwitter
+github: mygithub
+medium: medium
+email: myemail@gmail.com
+authors:
+  johndoe:
+    name: John Doe
+    bio: A Man who travels the world eating noodles
+    external-image: false
+    picture: assets/images/profile.jpg
+    twitter: johndoe
+  jamesfoster:
+    name: Creative Automaton
+    bio: Creative Web Automation Services
+    external-image: false
+    picture: assets/images/james.jpg
+    twitter: Cre8tiveCoOp
+width: large
+projects: true
+about: true
+blog: true
+contact: true
+read-time: true
+show-tags: true
+related: true
+post-advance-links:
+  - blog
+show-author: true
+animation: true
+gems:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+jekyll-mentions:
+  base_url: 'https://github.com'
