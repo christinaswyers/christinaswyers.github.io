@@ -12,29 +12,14 @@
             <li class="item">
                 <a class="link" href="{{ site.url }}/">Home</a>
             </li>
-        {% endif %}
+        {% endif %} 
 
-
-        {% if site.projects == true %}
-            {% if page.title != "Projects" %}
+        {% if site.listings == true %}
+            {% if page.title != "Listings" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
+                    <a class="link" href="{{ site.url }}/listings">Listings</a>
                 </li>
             {% endif %}
-        {% endif %}
-
-        {% if site.blog == true %}
-            {% if page.title != "Blog" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
-                </li>
-            {% endif %}
-        {% endif %}
-
-        {% if page.title != "Workers" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/workers">Workers</a>
-            </li>
         {% endif %}
 
         {% if site.about == true %}

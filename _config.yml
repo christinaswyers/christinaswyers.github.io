@@ -13,6 +13,8 @@ disqus:
   categories:
     - blog
     - project
+    - sold
+    - forsale
 facebook: myfacebook
 twitter: mytwitter
 github: mygithub
@@ -32,15 +34,14 @@ authors:
     picture: assets/images/james.jpg
     twitter: Cre8tiveCoOp
 width: large
-projects: true
 about: true
-blog: true
+listings: true
 contact: true
 read-time: true
 show-tags: true
 related: true
 post-advance-links:
-  - blog
+  - listings
 show-author: true
 animation: true
 gems:
