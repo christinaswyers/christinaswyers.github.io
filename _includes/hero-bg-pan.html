@@ -1,0 +1,20 @@
+<section id="hero" class="bgpan">
+
+  <div class="container">
+      <h1 class="logo hide fast">Creative Automaton</h1>
+      <p class="description hide">{{ site.bio }}</p>
+      <div class="title hide">
+
+          {% for tagline in site.data.creativeautomaton.taglines %}
+               <h2 data-order="{{tagline.order}} "> {{tagline.desc}} </h2>
+          {% endfor %}
+     </div>
+      <p>
+        <a href="#portfolio">
+          <i class="fa fa-arrow-circle-o-down fa-4x fa-inverse"></i>
+        </a>
+      </p>
+
+  </div>
+
+</section>

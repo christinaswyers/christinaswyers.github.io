@@ -1,0 +1,18 @@
+<section>
+    <div class="container">
+                 <!-- Our Customers -->
+                 <div class="row">
+                     <div class="col-lg-12">
+                         <div class="page-header">Past Clients</div>
+                     </div>
+                     {% for client in site.data.creativeautomaton.clients %}
+                      <div class="col-md-2 col-sm-4 col-xs-6">
+                          <img class="img-responsive customer-img" src="{{client.logo}}" alt="{{client.name}}">
+                          {{client.about}}
+                      </div>
+                     {% endfor %}
+                 </div>
+                 <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</section>

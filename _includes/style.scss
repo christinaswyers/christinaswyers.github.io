@@ -1,4 +1,6 @@
 
+@import "components/bootstrap";
+
 @import "base/variables";
 @import "base/normalize";
 @import "base/syntax";
@@ -17,6 +19,7 @@
 @import "components/header";
 @import "components/nav";
 @import "components/others";
+@import "components/modals";
 @import "components/pagination";
 @import "components/related";
 @import "components/share";
@@ -24,7 +27,34 @@
 @import "components/social-links";
 @import "components/spoiler";
 
+@import "components/hero";
 @import "components/hero-split";
 @import "components/hamburgers";
 @import "components/mailchimp";
 @import "components/hcard";
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+// @import "components/agency";
+@import "components/portfolio";
+@import "components/services";
+@import "components/overrides";
+
+// Animate CSS
+@import "animations/animate";
+@import "animations/motion";
+
+
+// font-awesome
+@import "font-awesome/variables";
+@import "font-awesome/mixins";
+@import "font-awesome/path";
+@import "font-awesome/core";
+@import "font-awesome/larger";
+@import "font-awesome/fixed-width";
+@import "font-awesome/list";
+@import "font-awesome/bordered-pulled";
+@import "font-awesome/animated";
+@import "font-awesome/rotated-flipped";
+@import "font-awesome/stacked";
+@import "font-awesome/icons";

@@ -1,0 +1,247 @@
+{
+  "users":  [
+    {
+    "username": "creative_automaton",
+    "password": "zach17",
+     "profile": [
+        {
+          "name": "Zachary",
+          "avatar": "/assets/images/dist/profiles/creative_automaton/avatar.png",
+          "bio": "This is zach's little bio."
+        }
+      ]
+    }
+  ],
+   "clients":  [
+     {
+       "name": "Decantry",
+       "about": "Web Development",
+       "logo": "/assets/images/dist/decantery.png"
+     },
+     {
+       "name": "Brighton Agency",
+       "about": "Marketing Agency",
+       "logo": "/assets/images/dist/brighton.png"
+     }
+   ],
+  "workers":  [
+    {
+      "name": "Zachary James Kraft",
+      "title": "Founder / Developer / Designer",
+      "description": "A creative and inventive Web Developer who likes adventure and exploring possibilites.",
+      "photo": "/assets/images/dist/zach.png",
+      "twitter": "https://www.twitter.com/AutomatonCoOp",
+      "facebook": "https://www.facebook.com/CreativeAutomaton",
+      "linkedin": "https://www.linkedin.com/in/zachary-kraft-a95115111"
+    }
+  ],
+  "taglines":  [
+       {
+        "order": 1,
+        "desc": "A Digital Automation Cooperative.",
+        "full_desc": "We build any automated web system you can thing of, Automated Marketing Tools to Automated Notifications"
+       },
+       {
+        "order": 2,
+        "desc": "A Web Development Company",
+        "full_desc": "Providing web development tools, web apps, and web data services from professional web freelancers."
+       },
+       {
+        "order": 3,
+        "desc": "Distributed Cloud Applications",
+        "full_desc": "Coding Distributed Web Apps, using Amazon Web Services, Rackspace, Digital Ocean & more"
+       }
+    ],
+  "services":  [
+    {
+      "name": "Web Automation",
+      "desc": "Web application Automation for products and services.",
+      "url": "/services/web-automation",
+      "image": "/assets/images/dist/wooden-robot.jpg",
+      "icon": "fa-magic",
+      "active": "true"
+    },
+    {
+      "name": "Web Development",
+      "desc": "Typical web products html, js, css",
+      "url": "/services/web-development",
+      "image": "/assets/images/dist/code.jpg",
+      "icon": "fa-code"
+    },
+    {
+      "name": "Marketing Automation Solutions",
+      "desc": "Typical web products html, js, css",
+      "url": "/services/marketing",
+      "image": "/assets/images/dist/web-marketing.jpg",
+      "icon": "fa-crosshairs"
+    },
+    {
+      "name": "Web Design Tools",
+      "desc": "Web based css tools",
+      "url": "/services/web-design",
+      "image": "/assets/images/dist/design-tools.jpg",
+      "icon": "fa-rocket"
+    },
+    {
+      "name": "Content Management Solutions",
+      "desc": "Wordpress, Joomla Theme development",
+      "url": "/services/content-management",
+      "image": "assets/images/dist/content-settings.jpg",
+      "icon": "fa-edit"
+    },
+    {
+      "name": "Application Development",
+      "desc": "Moile and web based applications",
+      "url": "/services/application-development",
+      "image": "assets/images/dist/apps-screen.jpg",
+      "icon": "fa-buysellads"
+    }
+  ],
+  "images": {
+
+   },
+  "projects": [
+    {
+      "name": "Starfish Project",
+      "id": "1",
+      "date": "01-01-2016",
+      "url": "https://starfishproject.com/",
+      "description": "Website and recipe search engine. ",
+      "video": "",
+      "images": {
+          "logo":{
+            "name": "Starfish project logo",
+            "url": "/assets/projects/starfish-project/logo.png"
+          },
+          "background":{
+            "name": "Starfish project logo",
+            "url": "/assets/images/dist/starfish-project.png"
+          }
+      }
+    },
+    {
+      "name": "The Bindel",
+      "id": "2",
+      "date": "04-30-2016",
+      "url": "https://thebindel.com/",
+      "description": "Short-term Rentals for College Students.",
+      "video": "",
+      "images": {
+          "background":{
+            "name": "the Bindel",
+            "url": "/assets/images/dist/thebindel.png"
+          }
+      }
+    },
+    {
+      "name": "PictSweet Farms",
+      "id": "3",
+      "date": "10-30-2016",
+      "url": "https://www.pictsweetfarms.com/",
+      "description": "Website and recipe search engine. ",
+      "video": "",
+      "images": {
+          "background":{
+            "name": "pict sweet background",
+            "url": "/assets/images/dist/pictsweetfarms.png"
+          }
+      }
+    },
+    {
+      "name": "St. Louis Genological Society",
+      "id": "4",
+      "date": "12-01-2016",
+      "url": "https://stlgs.org/",
+      "description": "A site to help genealogists trying to research their St. Louis ancestors",
+      "video": "",
+      "images": {
+          "background":{
+            "name": "the Bindel",
+            "url": "/assets/images/dist/stlgs.png"
+          }
+      }
+    },
+      {
+        "name": "Stl Tech Jobs",
+        "id": "5",
+        "date": "3-01-2016",
+        "url": "http://www.stltechjobs.org/",
+        "description": "Providing St. Louis Tech Startups talent and a place to post openings.",
+        "video": "",
+        "images": {
+            "background":{
+              "name": "Stl tech jobs",
+              "url": "/assets/images/dist/stltech-jobs.png"
+            }
+        }
+    },
+    {
+      "name": "Bonfyre.com",
+      "id": "6",
+      "date": "9-01-2016",
+      "url": "https://bonfyreapp.com/",
+      "description": "Built out BonfyreApp.com templates and theme systems on WordPress",
+      "video": "",
+      "images": {
+          "background":{
+            "name": "Bonfyre app homepage",
+            "url": "/assets/images/dist/bonfyre-app-homepage.png"
+          }
+      }
+    }
+  ],
+  "forms": [
+    {
+      "name": "Project Quote",
+      "id": "1",
+      "email": "creativeautomaton@gmail.com",
+      "description": "Where do we begin?",
+      "inputs": [
+                  {
+                    "id": "1",
+                    "name": "name",
+                    "tag": "input",
+                    "type": "text",
+                    "attribute": "required",
+                    "placeholder": "Enter a Name",
+                    "label": "Name"
+                  },
+                  {
+                    "id": "2",
+                    "name": "_replyto",
+                    "tag": "input",
+                    "type": "email",
+                    "value": "",
+                    "attribute": "required",
+                    "placeholder": "Email Address",
+                    "label": "Email Address"
+                  },
+                  {
+                    "id": "3",
+                    "name": "message",
+                    "tag": "textarea",
+                    "type": "textarea",
+                    "value": "",
+                    "attribute": "",
+                    "placeholder": "What can we help you with?",
+                    "size": " cols='4' rows='5' "
+                  },
+                  {
+                    "id": "4",
+                    "name": "state",
+                    "tag": "select",
+                    "options": [
+                      {
+                          "value": "Arizona",
+                          "selected": "selected"
+                      },
+                       {
+                           "value": "Alabama"
+                       }
+                    ],
+                    "label": "State"
+                  }
+              ]
+      }
+   ]
+}

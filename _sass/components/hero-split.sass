@@ -1,3 +1,4 @@
+
 .hero-split
   display: flex
   text-align: center
@@ -5,5 +6,30 @@
   height: 600px
   flex-wrap: wrap
 
+  > div.left
+    background: darken( $blueish, 10% )
+
+  > div.right
+    background: darken( $blueish, 5% )
+
   > div
     width: 50%
+    height: 100%
+    color: $white
+    display: -webkit-flex
+    display: flex
+    -webkit-flex-wrap: wrap
+    flex-wrap: wrap
+    -webkit-align-content: center
+    align-content: center
+    padding: 3rem
+
+    > .container
+      width: 100%
+
+      > p
+        color: $white
+
+    &:hover
+      color: $white
+      background: $blueish

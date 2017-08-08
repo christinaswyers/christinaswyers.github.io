@@ -8,14 +8,12 @@ body
 
 h1, h2, h3, h4
 	font-family: $fontSans
-	color: $beta
 	-webkit-font-smoothing: antialiased
 	text-rendering: optimizeLegibility
 
 h1
 	font-size: 3rem
-	letter-spacing: -1px
-	color: $beta
+	letter-spacing: -1px 
 	font-weight: 700
 
 h2
@@ -29,7 +27,6 @@ h4
 
 a
 	color: $delta
-	text-decoration: underline
 
 p
 	line-height: 1.7
@@ -42,8 +39,7 @@ p
 		letter-spacing: 0.2px
 
 strong
-	font-weight: 400
-	color: #000
+	font-weight: bold
 
 ul,
 ol
@@ -117,7 +113,7 @@ pre
 .wrapper-normal,
 .wrapper-large
 	height: 100%
-	width: 98vw
+	width: 100%
 	margin: 0 auto
 
 	@media #{$mobile}

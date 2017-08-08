@@ -1,0 +1,114 @@
+  <!-- Nav Modal -->
+
+       <div class="nav-modal modal fade" id="nav-modal-1" role="dialog" aria-hidden="true">
+           <div class="modal-dialog">
+               <div class="modal-content">
+                   <div class="close-modal" data-dismiss="modal">
+                       <div class="lr">
+                           <div class="rl">
+                           </div>
+                       </div>
+                   </div>
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-lg-8 col-lg-offset-2">
+                               <div class="modal-body"> 
+                                    {% include nav.html  %}
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+     </div>
+
+
+<!-- Portfolio Modals -->
+    {% for project in site.data.creativeautomaton.projects %}
+      <div class="portfolio-modal modal fade" id="portfolio-modal-{{project.id}}" role="dialog" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="close-modal" data-dismiss="modal">
+                      <div class="lr">
+                          <div class="rl">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-lg-8 col-lg-offset-2">
+                              <div class="modal-body">
+                                  <!-- Project Details Go Here -->
+                                  <h2>{{project.name}}</h2>
+                                  <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                  <a href="{{project.url}}"  target="_blank">
+                                      <img class="img-responsive img-hover" src="{{project.images.background.url}}"  alt="{{project.name}}">
+                                  </a>
+                                  <p>{{ project.description}}</p>
+                                  <a href="{{project.url}}"  target="_blank" class="btn btn-primary" >
+                                    <i class="fa fa-arrow"></i> Visit Project
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+{% endfor %}
+
+
+<!-- Form Modals -->
+   {% for form in site.data.creativeautomaton.forms  %}
+     <div class="form-modal modal fade" id="form-modal-{{form.id}}" role="dialog" aria-hidden="true">
+         <div class="modal-dialog">
+             <div class="modal-content">
+                 <div class="close-modal" data-dismiss="modal">
+                     <div class="lr">
+                         <div class="rl">
+                         </div>
+                     </div>
+                 </div>
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-lg-8 col-lg-offset-2">
+                             <div class="modal-body">
+                                 <h2>{{form.name}}</h2>
+                                 <p>{{ form.description}}</p>
+                                 <form action="https://formspree.io/{{form.email}}"
+                                 method="POST">
+
+                                    {% for input in form.inputs %}
+                                    <div class="form-group">
+                                      {% if input.tag == "input" %}
+                                        <label>{{input.label}}</label>
+                                        <input class="form-control" type="{{input.type}}" name="{{input.name}}" {{input.attribute}}  placeholder="{{input.placeholder}}"
+                                        {{input.size}} >
+                                      {% endif %}
+                                      {% if input.tag == "textarea" %}
+                                        <textarea class="form-control" type="{{input.type}}" name="{{input.name}}" {{input.attribute}}
+                                        {{input.size}}></textarea>
+                                      {% endif %}
+                                      {% if input.tag == "select" %}
+                                        <label >{{input.label}}</label>
+                                        <select class="form-control" name="{{input.name}}" >
+                                          {% for option in input.options %}
+                                          <option value="{{option.value}}" {{option.selected}}> {{option.value}}</option>
+                                          {% endfor %}
+                                        </select>
+                                      {% endif %}
+                                    </div>
+                                    {% endfor %}
+                                   <button type="submit" class="btn btn-primary" data-dismiss="modal">
+                                      <i class="fa fa-plane"></i> Send
+                                   </button>
+
+                                  </form>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+   </div>
+{% endfor %}

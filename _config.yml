@@ -1,47 +1,45 @@
-name: Christina Swyers Real Estate
-bio: Saint Louis realators
-description: Selling and Buying the best homes in the Saint Louis Region.
+name: Creative Automaton - St. Louis Web Design
+small-tagline: Top Saint louis Web Company
+bio: Creative Web Automation Services
+description: Sharing the profits of Web automation with its coders
+keywords: Web Development, Web Applications, Web Marketing, Automation
 external-image: false
 picture: assets/images/profile.jpg
 resume: true
 resume-external: true
 resume-url: 'https://google.com/?q=my+resume'
-url: https://christinaswyers.github.io
+url: 'http://creativeautomaton.com'
 permalink: '/:title/'
 disqus:
-  shortname: mydisqus
+  shortname: creativeautomatondesign
   categories:
     - blog
     - project
-    - sold
-    - forsale
-facebook: myfacebook
-twitter: mytwitter
-github: mygithub
-medium: medium
-email: myemail@gmail.com
+facebook: 'https://www.facebook.com/CreativeAutomaton'
+twitter: 'https://twitter.com/AutomatonCoOp'
+github: 'https://github.com/creativeautomaton'
+youtube: 'https://www.youtube.com/user/TheCreativeautomaton'
+linkedin: 'https://www.linkedin.com/in/zachary-kraft-a95115111'
+reddit: 'https://www.reddit.com/user/cre8tiveautomaton'
+email: 'creativeautomaton[at]gmail.com'
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
+  creativeautomaton:
     name: Creative Automaton
-    bio: Creative Web Automation Services
+    bio: Creative Web Automation Cooperative
     external-image: false
-    picture: assets/images/james.jpg
+    picture: /assets/images/logo.jpg
     twitter: Cre8tiveCoOp
 width: large
 about: true
-listings: true
+blog: true
 contact: true
+projects: true
+services: true
 read-time: true
 show-tags: true
 related: true
 post-advance-links:
-  - listings
+  - blog
 show-author: true
 animation: true
 gems:
@@ -49,5 +47,8 @@ gems:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-sitemap
 jekyll-mentions:
-  base_url: 'https://github.com'
+base_url: 'https://github.com'
+ # exclude my node related stuff
+exclude: ['package.json', 'node_modules', 'gulpfile.js']

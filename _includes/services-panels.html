@@ -1,0 +1,36 @@
+<section>
+     <div class="container">
+             <!-- Service Panels -->
+             <div class="row">
+                 <div class="col-lg-12">
+                     <div class="page-header">Services
+                       <small> Grity details of our offerings</small>
+                     </div>
+                 </div>
+                <div class="service-panels">
+                    {% for service in site.data.creativeautomaton.services %}
+                     <div class="col-xs-12 col-sm-4 service animated bounceIn">
+                         <div class="panel panel-default text-center">
+                             <div class="panel-heading">
+                                <div class="bg-image"  style="background-image: url('{{service.image}}');"></div>
+                                 <span class="fa-stack fa-5x animated ">
+                                       <i class="fa fa-circle fa-stack-2x text-info"></i>
+                                       <i class="fa {{service.icon}} fa-stack-1x fa-inverse"></i>
+                                 </span>
+                             </div>
+                             <div class="panel-body">
+                                 <h2 class="service-name">{{service.name}}</h2>
+                                 <p>{{service.desc}}</p>
+                                 <a href="{{service.url}}" class="btn btn-secondary" title="{{service.name}}">
+                                  See More <strong> {{service.name}} </strong> </a>
+                                 <a href="#form-modal-1" class="btn btn-primary get-quote animated" data-toggle="modal">
+                                  Hire Us For  <strong>{{service.name}} </strong></a>
+                             </div>
+                         </div>
+                     </div>
+                    {% endfor %}
+                </div>
+             </div>
+    </div>
+     <!-- /.container -->
+</section>

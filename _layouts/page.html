@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-{% include nav.html %}
 {% include header.html %}
+
+{% if page.id == "about"%}
+  {% include about.html %}
+{% endif %} 
+{% if page.id == "contact"%}
+  {% include contact.html %}
+{% endif %}
 
 {{content}}
 

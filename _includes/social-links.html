@@ -1,12 +1,12 @@
 <div class="social-links">
     {% if site.facebook %}
-        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
+        <a class="link" data-title="{{ site.facebook }}" href="{{ site.facebook }}" target="_blank">
             <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
         </a>
     {% endif %}
 
     {% if site.twitter %}
-        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
+        <a class="link" data-title="{{ site.twitter }}" href="{{ site.twitter }}" target="_blank">
             <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
         </a>
     {% endif %}
@@ -30,13 +30,13 @@
     {% endif %}
 
     {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+        <a class="link" data-title="{{ site.linkedin }}" href="{{ site.linkedin }}" target="_blank">
             <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
 
     {% if site.youtube %}
-        <a class="link" data-title="youtube.com/{{ site.youtube }}" href="http://youtube.com/{{ site.youtube }}" target="_blank">
+        <a class="link" data-title="{{ site.youtube }}" href="{{ site.youtube }}" target="_blank">
             <svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg>
         </a>
     {% endif %}
@@ -49,16 +49,16 @@
 
     {% if site.lastfm %}
         <a class="link" data-title="last.fm/user/{{ site.lastfm }}" href="https://last.fm/user/{{ site.lastfm }}" target="_blank">
-            <svg class="icon icon-lastfm"><use xlink:href="#icon-lastfm"></use></svg>   
+            <svg class="icon icon-lastfm"><use xlink:href="#icon-lastfm"></use></svg>
         </a>
     {% endif %}
 
     {% if site.github %}
-        <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank">
+        <a class="link" data-title="{{ site.github }}" href="{{ site.github }}" target="_blank">
             <svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
         </a>
     {% endif %}
-    
+
     {% if site.stackoverflow %}
         <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank">
             <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
@@ -72,7 +72,7 @@
     {% endif %}
 
     {% if site.reddit %}
-        <a class="link" data-title="reddit.com/user/{{ site.reddit }}" href="https://www.reddit.com/user/{{ site.reddit }}" target="_blank">
+        <a class="link" data-title="{{ site.reddit }}" href="{{ site.reddit }}" target="_blank">
             <svg class="icon icon-reddit"><use xlink:href="#icon-reddit"></use></svg>
         </a>
     {% endif %}

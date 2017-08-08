@@ -1,0 +1,31 @@
+<section>
+   <div class="container">
+       <!-- Service List -->
+       <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+       <div class="row">
+           <div class="col-lg-12">
+               <h2 class="page-header">Service List</h2>
+           </div>
+           <div class="row service-panels">
+              {% for service in site.data.creativeautomaton.services %}
+               <div class="col-xs-12 col-sm-3 media animated fadeIn">
+                   <div class="pull-left">
+                       <span class="fa-stack fa-2x">
+                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                             <i class="fa {{service.icon}} fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </div>
+                   <div class="media-body">
+                       <h4 class="media-heading">{{service.name}}</h4>
+                       <p>{{service.desc}}</p>
+                   </div>
+               </div>
+             {% endfor %}
+          </div>
+       </div>
+       <!-- /.row -->
+
+  </div>
+   <!-- /.container -->
+
+</section>

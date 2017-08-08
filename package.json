@@ -1,0 +1,21 @@
+{
+  "name": "creativeautomaton.github.io",
+  "version": "1.0.0",
+  "description": "Cooperative site",
+  "main": "gulpfile.js",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/creativeautomaton/creativeautomaton.github.io.git"
+},
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.4.1",  
+    "tinify": "*"
+  },
+  "author": "Zachary Kraft",
+  "license": "ISC"
+}
