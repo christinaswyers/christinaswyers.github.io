@@ -1,6 +1,6 @@
-name: Creative Automaton - St. Louis Web Design
-small-tagline: Top Saint louis Web Company
-bio: Creative Web Automation Services
+name: Christina Swyers - St. Louis Real Estate
+small-tagline: Top Saint louis Realtor
+bio: Realtor Services
 description: Sharing the profits of Web automation with its coders
 keywords: Web Development, Web Applications, Web Marketing, Automation
 external-image: false
@@ -8,7 +8,7 @@ picture: assets/images/profile.jpg
 resume: true
 resume-external: true
 resume-url: 'https://google.com/?q=my+resume'
-url: 'http://creativeautomaton.com'
+url: 'http://christinaswyersrealestate.com/'
 permalink: '/:title/'
 disqus:
   shortname: creativeautomatondesign

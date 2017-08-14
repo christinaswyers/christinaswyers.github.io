@@ -1,5 +1,26 @@
-.pan-bg 
+.pan-bg
   animation: expandX 12s linear 0s infinite alternate, expandY 12s linear 0s infinite alternate
+
+
+@keyframes zoom
+  0%
+    width: calc(100vw + 10vw)
+    height: calc(100% + 10%)
+    background-position: 0px -100px
+  100%
+    width: calc(100vw + 20vw)
+    height: calc(100% + 20%)
+    background-position: 0px 0px
+
+@keyframes shrink
+  0%
+    width: calc(100vw + 10vw)
+    height: calc(100% + 10%)
+    background-position: 0px 0px
+  100%
+    width: calc(100vw + 0vw)
+    height: calc(100% + 0%)
+    background-position: 0px -100px
 
 
 @keyframes expandX

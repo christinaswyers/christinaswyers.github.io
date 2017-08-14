@@ -1,18 +1,18 @@
 <section id="hero">
   <!-- <video class="fadeIn animated very-fast" src="/assets/video/shiny_metal_cubes.mp4" autoplay loop > </video> -->
-  <div class="image-pan animate fadeIn" style="background: url('/assets/images/wooden-robot.jpg'); background-size: cover;"> </div>
+  <div class="image-pan animate fadeIn" style="background: url('/assets/images/dist/blue-house.jpg'); background-size: cover;"> </div>
   <div class="container">
-      <h1 class="logo">Creative Automaton
+      <h1 class="logo">Christina Swyers Real Estate
         <small> {{site.small-tagline}} </small>
       </h1>
       <div class="title hide">
-          {% for tagline in site.data.creativeautomaton.taglines %}
+          {% for tagline in site.data.data.taglines %}
                 <h2 data-order="{{tagline.order}} "> {{tagline.desc}} </h2>
           {% endfor %}
-           {% for tagline in site.data.creativeautomaton.taglines %}
+           {% for tagline in site.data.data.taglines %}
                  <p data-order="{{tagline.order}} "> {{tagline.full_desc}} </p>
            {% endfor %}
-
+       {% include nav.html %}
      </div>
       <p class="container">
         <a href="#portfolio">
